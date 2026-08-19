@@ -1,3 +1,6 @@
+import Counter from "../components/counter"
+
+
 const About=() =>{
       const year = new Date().getFullYear()
 
@@ -8,6 +11,8 @@ const About=() =>{
     <p className="text-center">
    Copyright &copy; {year}
     </p>
+
+    <Counter/>
     </>
   )
 
